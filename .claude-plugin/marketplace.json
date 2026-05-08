@@ -8,7 +8,7 @@
       "description": ""
     },
     {
-      "name": "robonuggets-calibrate",
+      "name": "calibrate",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/robonuggets/skills",
@@ -22,7 +22,7 @@
       "skills": "."
     },
     {
-      "name": "robonuggets-personalise",
+      "name": "personalise",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/robonuggets/skills",
@@ -36,7 +36,7 @@
       "skills": "."
     },
     {
-      "name": "robonuggets-tweak",
+      "name": "tweak",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/robonuggets/skills",
