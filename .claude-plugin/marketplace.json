@@ -1,0 +1,53 @@
+{
+  "name": "mskilz",
+  "owner": { "name": "ha-D" },
+  "plugins": [
+    {
+      "name": "mskilz",
+      "source": "./plugins/mskilz",
+      "description": ""
+    },
+    {
+      "name": "robonuggets-calibrate",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/robonuggets/skills",
+        "path": "calibrate"
+      },
+      "description": "Reviews the current conversation and suggests targeted updates to skills, instruction files, or memory based on corrections and patterns",
+      "author": { "name": "robonuggets" },
+      "repository": "https://github.com/robonuggets/skills",
+      "keywords": ["calibrate", "self-improvement"],
+      "strict": false,
+      "skills": "."
+    },
+    {
+      "name": "robonuggets-personalise",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/robonuggets/skills",
+        "path": "personalise"
+      },
+      "description": "Takes any external input and recommends how to adapt it to your specific workspace, voice, tech stack, and goals",
+      "author": { "name": "robonuggets" },
+      "repository": "https://github.com/robonuggets/skills",
+      "keywords": ["personalise", "adapt"],
+      "strict": false,
+      "skills": "."
+    },
+    {
+      "name": "robonuggets-tweak",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/robonuggets/skills",
+        "path": "tweak"
+      },
+      "description": "Injects a live controls panel into single-file HTML output with sliders for speed, type sizes, density, glow, roundness, then bakes values back into source CSS",
+      "author": { "name": "robonuggets" },
+      "repository": "https://github.com/robonuggets/skills",
+      "keywords": ["tweak", "html", "css"],
+      "strict": false,
+      "skills": "."
+    }
+  ]
+}
